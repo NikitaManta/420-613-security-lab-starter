@@ -19,7 +19,7 @@ namespace SecurityLab1_Starter
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional },
-                new { controller = "Home|Inventory", action = "Index|Contact|About|" }
+                new { controller = "Home|Inventory", action = "Index|Contact|About" }
             );
 
             routes.MapRoute(
